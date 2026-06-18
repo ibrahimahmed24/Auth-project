@@ -22,7 +22,7 @@ app.use(cookieParser());
       ? [process.env.FRONT_END]
       : ['http://localhost:5173'],
 
-  credentials: true,
+ credentials: true ,
 
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
 
